@@ -6,14 +6,11 @@
       "value": "App-Dev-ASP"
     },
     "websiteName": {
-      "value": "" 
+      "value": "spt-ecommerce-api-dev"
     },
     "skuName": {
       "value": "F1"
     },
-	"location":{
-		"value": "uksouth"
-	}
     "resourceTags": {
       "value": {
         "Environment": "Development",
