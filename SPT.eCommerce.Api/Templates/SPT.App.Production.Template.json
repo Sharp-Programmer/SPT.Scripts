@@ -3,7 +3,7 @@
   "contentVersion": "1.0.0.0",
   "parameters": {
     "resourceTags": {
-      "type": "object",
+      "type": "object"
     },
     "hostingPlanName": {
       "type": "string",
