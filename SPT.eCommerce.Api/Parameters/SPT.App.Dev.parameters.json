@@ -5,7 +5,7 @@
     "hostingPlanName": {
       "value": "App-Dev-ASP"
     },
-    "websiteName": {
+    "webSiteName": {
       "value": "spt-ecommerce-api-dev"
     },
     "skuName": {
