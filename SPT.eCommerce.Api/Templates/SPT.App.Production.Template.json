@@ -12,6 +12,10 @@
     "webSiteName": {
       "type": "string",
       "minLength": 3
+    }, 
+    "slotName": {
+      "type": "string",
+      "minLength":3
     },
     "skuName": {
       "type": "string",
@@ -76,7 +80,7 @@
     {
       "type": "Microsoft.Web/sites/slots",
       "apiVersion": "2018-11-01",
-      "name": "[concat(parameters('webSiteName'), '/preprod')]",
+      "name": "[concat(parameters('webSiteName'),  parameters('slotName'))]",
       "location": "[resourceGroup().location]",
       "dependsOn": [
         "[resourceId('Microsoft.Web/sites', parameters('webSiteName'))]"

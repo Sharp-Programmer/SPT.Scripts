@@ -11,6 +11,9 @@
     "skuName": {
       "value": "S1"
     },
+	"slotName": {
+      "value": ""
+    },
     "resourceTags": {
       "value": {
         "Environment": "Production",
